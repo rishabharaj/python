@@ -1,0 +1,11 @@
+PYthon environment-
+{creation} python -m venv my_ml_env
+{check_pip } pip list
+
+cd C:\ML_Projects\your_project_folder
+my_ml_env\Scripts\activate
+{ show that the virtual environment is activated, like this:(my_ml_env) C:\ML_Projects>}
+deactivate ( for deactivating)
+
+(generate requirement.txt) pip freeze > requirements.txt
+(installing requirement.txt) pip install -r requirements.txt
